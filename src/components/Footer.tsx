@@ -12,7 +12,7 @@ export default function Footer() {
                 <span className="text-slate-900 font-black text-xl tracking-tighter">A</span>
               </div>
               <span className="text-white font-bold text-lg tracking-wide uppercase">
-                Atlas<span className="text-amber-500">Steel</span>
+                Minerax<span className="text-amber-500">Steel</span>
               </span>
             </div>
             <p className="text-sm font-light leading-relaxed mb-6">
@@ -32,7 +32,7 @@ export default function Footer() {
               <li><a href="#" className="hover:text-amber-500 transition-colors">Corporate Profile</a></li>
               <li><a href="#" className="hover:text-amber-500 transition-colors">Investor Relations</a></li>
               <li><a href="#" className="hover:text-amber-500 transition-colors">Sustainability Report</a></li>
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Careers at Atlas</a></li>
+              <li><a href="#" className="hover:text-amber-500 transition-colors">Careers at Minerax</a></li>
               <li><a href="#" className="hover:text-amber-500 transition-colors">Media & Newsroom</a></li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-amber-500 shrink-0" />
-                <span>inquiries@atlassteel.global</span>
+                <span>inquiries@minerax.com</span>
               </li>
             </ul>
           </div>

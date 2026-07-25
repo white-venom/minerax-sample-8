@@ -2,24 +2,24 @@ import { ArrowRight } from 'lucide-react';
 
 const divisions = [
   {
-    title: 'Atlas Heavy Castings',
+    title: 'Minerax Heavy Castings',
     description: 'Ultra-large steel castings for mining, shipbuilding, and industrial machinery.',
-    image: 'https://images.unsplash.com/photo-1565891741441-64926e441838?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/ai_asset_7.jpg',
   },
   {
-    title: 'Atlas Seamless Pipes',
+    title: 'Minerax Seamless Pipes',
     description: 'High-strength seamless steel pipes for oil & gas and petrochemical sectors.',
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/ai_asset_6.jpg',
   },
   {
-    title: 'Atlas Rail Infrastructure',
+    title: 'Minerax Rail Infrastructure',
     description: 'Premium quality rails, sleepers, and track components for modern transit.',
-    image: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/ai_asset_8.jpg',
   },
   {
-    title: 'Atlas Advanced Alloys',
+    title: 'Minerax Advanced Alloys',
     description: 'Specialty steel and superalloys for aerospace and defense applications.',
-    image: 'https://images.unsplash.com/photo-1590858167389-4b68e0d5a47e?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/ai_asset_5.jpg',
   }
 ];
 

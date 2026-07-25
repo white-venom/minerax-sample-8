@@ -37,7 +37,7 @@ export default function Navbar() {
               <span className="text-slate-900 font-black text-2xl tracking-tighter">A</span>
             </div>
             <span className="text-white font-bold text-xl tracking-wide uppercase">
-              Atlas<span className="text-amber-500">Steel</span>
+              Minerax<span className="text-amber-500">Steel</span>
             </span>
           </div>
 
