@@ -1,5 +1,5 @@
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
