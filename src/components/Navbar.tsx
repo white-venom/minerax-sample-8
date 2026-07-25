@@ -38,7 +38,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-white font-black text-xl tracking-wider uppercase leading-none group-hover:text-amber-400 transition-colors">
-                Minerax<span className="text-amber-500">Steel</span>
+                Minerax
               </span>
               <span className="text-[10px] text-slate-300 font-semibold tracking-widest uppercase mt-0.5">
                 Industrial Excellence
