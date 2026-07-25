@@ -33,12 +33,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <div className="w-10 h-10 bg-amber-500 rounded-sm flex items-center justify-center">
-              <span className="text-slate-900 font-black text-2xl tracking-tighter">A</span>
-            </div>
-            <span className="text-white font-bold text-xl tracking-wide uppercase">
-              Minerax<span className="text-amber-500">Steel</span>
-            </span>
+            <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
           </div>
 
           {/* Desktop Nav */}
