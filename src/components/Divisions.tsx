@@ -4,22 +4,22 @@ const divisions = [
   {
     title: 'Minerax Heavy Castings',
     description: 'Ultra-large steel castings for mining, shipbuilding, and industrial machinery.',
-    image: '/assets/ai_asset_7.jpg',
+    image: '/assets/division_castings.png',
   },
   {
     title: 'Minerax Seamless Pipes',
     description: 'High-strength seamless steel pipes for oil & gas and petrochemical sectors.',
-    image: '/assets/ai_asset_6.jpg',
+    image: '/assets/division_pipes.png',
   },
   {
     title: 'Minerax Rail Infrastructure',
     description: 'Premium quality rails, sleepers, and track components for modern transit.',
-    image: '/assets/ai_asset_8.jpg',
+    image: '/assets/steel_components.jpg',
   },
   {
     title: 'Minerax Advanced Alloys',
     description: 'Specialty steel and superalloys for aerospace and defense applications.',
-    image: '/assets/ai_asset_5.jpg',
+    image: '/assets/quality_lab.jpg',
   }
 ];
 

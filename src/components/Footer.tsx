@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Col */}
+          <div>
             <a href="#" className="flex items-center gap-3 mb-6 group">
               <div className="p-1.5 bg-white/95 rounded-lg shadow-md flex items-center justify-center border border-slate-200/20">
                 <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-8 w-auto object-contain" />

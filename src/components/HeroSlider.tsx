@@ -6,21 +6,21 @@ import { cn } from '../lib/utils';
 const slides = [
   {
     id: 1,
-    image: '/assets/ai_asset_9.jpg',
+    image: '/assets/hero_1.png',
     subtitle: 'Forging the Future',
     title: 'Global Leaders in Steel Casting',
     description: "Decades of heritage, precision engineering, and uncompromising quality for the world's most demanding industries.",
   },
   {
     id: 2,
-    image: '/assets/ai_asset_9.jpg',
+    image: '/assets/hero_2.png',
     subtitle: 'Uncompromising Quality',
     title: 'Precision in Every Pour',
     description: 'State-of-the-art foundries delivering high-grade steel products to exacting international standards.',
   },
   {
     id: 3,
-    image: '/assets/ai_asset_9.jpg',
+    image: '/assets/hero_3.png',
     subtitle: 'Global Footprint',
     title: 'Powering Infrastructure Worldwide',
     description: 'From pipelines to structural girders, our steel builds the backbone of modern civilization.',

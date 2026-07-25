@@ -31,21 +31,34 @@ export default function Legacy() {
             </button>
           </div>
           
-          <div className="grid grid-cols-2 gap-6">
-            {stats.map((stat, idx) => (
-              <div 
-                key={idx} 
-                className="bg-slate-50 p-8 rounded-sm border border-slate-100 hover:border-amber-200 transition-colors group"
-              >
-                <stat.icon className="w-10 h-10 text-amber-500 mb-6 group-hover:scale-110 transition-transform duration-300" />
-                <div className="text-4xl font-bold text-slate-900 mb-2 tracking-tight">
-                  {stat.value}
-                </div>
-                <div className="text-slate-500 font-medium uppercase tracking-wider text-xs">
-                  {stat.label}
-                </div>
+          <div className="space-y-6">
+            <div className="relative rounded-md overflow-hidden shadow-xl border border-slate-200 group">
+              <img 
+                src="/assets/factory_facility.jpg" 
+                alt="Minerax Steel Production Facility" 
+                className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-700" 
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-4">
+                <span className="text-white text-xs font-semibold uppercase tracking-wider">State-of-the-Art Steel Production Hub</span>
               </div>
-            ))}
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4">
+              {stats.map((stat, idx) => (
+                <div 
+                  key={idx} 
+                  className="bg-slate-50 p-6 rounded-sm border border-slate-100 hover:border-amber-300 transition-all duration-300 group shadow-sm hover:shadow"
+                >
+                  <stat.icon className="w-8 h-8 text-amber-500 mb-4 group-hover:scale-110 transition-transform duration-300" />
+                  <div className="text-3xl font-bold text-slate-900 mb-1 tracking-tight">
+                    {stat.value}
+                  </div>
+                  <div className="text-slate-500 font-medium uppercase tracking-wider text-xs">
+                    {stat.label}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
