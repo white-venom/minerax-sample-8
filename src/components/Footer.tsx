@@ -6,15 +6,19 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Col */}
-          <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-amber-500 rounded-sm flex items-center justify-center">
-                <span className="text-slate-900 font-black text-xl tracking-tighter">A</span>
+            <a href="#" className="flex items-center gap-3 mb-6 group">
+              <div className="p-1.5 bg-white/95 rounded-lg shadow-md flex items-center justify-center border border-slate-200/20">
+                <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-8 w-auto object-contain" />
               </div>
-              <span className="text-white font-bold text-lg tracking-wide uppercase">
-                Minerax<span className="text-amber-500">Steel</span>
-              </span>
-            </div>
+              <div className="flex flex-col">
+                <span className="text-white font-black text-xl tracking-wider uppercase leading-none group-hover:text-amber-400 transition-colors">
+                  Minerax<span className="text-amber-500">Steel</span>
+                </span>
+                <span className="text-[10px] text-slate-400 font-semibold tracking-widest uppercase mt-0.5">
+                  Industrial Excellence
+                </span>
+              </div>
+            </a>
             <p className="text-sm font-light leading-relaxed mb-6">
               Forging the future with Minerax. A global leader committed to quality, sustainability, and industrial excellence since 1974.
             </p>
