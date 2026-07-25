@@ -15,11 +15,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Our Products', href: '#products' },
-    { name: 'Global Presence', href: '#global' },
+    { name: 'About', href: '#about' },
+    { name: 'Divisions', href: '#products' },
+    { name: 'Case Studies', href: '#projects' },
+    { name: 'Calculator', href: '#calculator' },
     { name: 'Sustainability', href: '#sustainability' },
-    { name: 'Investors', href: '#investors' },
+    { name: 'Global Footprint', href: '#global' },
   ];
 
   return (
@@ -47,12 +48,12 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden lg:flex space-x-6">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-slate-200 hover:text-amber-500 font-medium text-sm transition-colors uppercase tracking-wider"
+                className="text-slate-200 hover:text-amber-500 font-medium text-xs transition-colors uppercase tracking-wider"
               >
                 {link.name}
               </a>
@@ -61,13 +62,13 @@ export default function Navbar() {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-white hover:text-amber-500 transition-colors">
-              <Globe className="w-5 h-5" />
-            </button>
-            <button className="bg-amber-600 hover:bg-amber-500 text-white px-5 py-2 rounded-sm text-sm font-semibold uppercase tracking-wider transition-colors flex items-center gap-2">
+            <a
+              href="#contact"
+              className="bg-amber-600 hover:bg-amber-500 text-slate-950 px-5 py-2.5 rounded-sm text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2"
+            >
               <Phone className="w-4 h-4" />
-              Contact Us
-            </button>
+              Request RFQ
+            </a>
           </div>
 
           {/* Mobile menu button */}
